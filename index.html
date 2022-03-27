@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css" />
-    <script src="assets/libs/anijs/dist/anijs-min.js"></script>
     <title>°Brand | Register</title>
   </head>
 
@@ -32,15 +31,15 @@
               <h1 class="title mb-3">cadastro</h1>
               
               <div class="mb-3">
-                <input class="form-control default-input" type="text" placeholder="Nome Completo"  />
+                <input class="form-control default-input" type="text" placeholder="Nome Completo" data-anijs="if: DOMContentLoaded, on: document, do: fadeInLeft animated" />
               </div>
               
               <div class="mb-3">
-                <input class="form-control default-input" type="text" placeholder="Endereço de e-mail" />
+                <input class="form-control default-input" type="text" placeholder="Endereço de e-mail" data-anijs="if: DOMContentLoaded, on: document, do: fadeInLeft animated" />
               </div>
 
               <div class="mb-3">
-                <input class="form-control default-input" type="text" placeholder="Crie sua senha" />
+                <input class="form-control default-input" type="text" placeholder="Crie sua senha" data-anijs="if: DOMContentLoaded, on: document, do: fadeInLeft animated" />
               </div>
 
               <hr class="mt-4" />
@@ -59,56 +58,56 @@
                 <div>
                   <input type="checkbox" id="eletronics" name="interest" value="eletronics" hidden="" onchange="addInterests()" />
                   <label for="eletronics">
-                    <span id="badge-eletronics" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow">Eletrônicos</span>
+                    <span id="badge-eletronics" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow" data-anijs="if: DOMContentLoaded, on: document, do: zoomIn animated">Eletrônicos</span>
                   </label>
                 </div>
                 
                 <div>
                   <input type="checkbox" id="phone" name="interest" value="phone" hidden="" onchange="addInterests()" />
                   <label for="phone">
-                    <span id="badge-phone" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow">Celular</span>
+                    <span id="badge-phone" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow" data-anijs="if: DOMContentLoaded, on: document, do: zoomIn animated">Celular</span>
                   </label>
                 </div>
 
                 <div>
                   <input type="checkbox" id="notebook" name="interest" value="notebook" hidden="" onchange="addInterests()"/>
                   <label for="notebook">
-                    <span id="badge-notebook" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow">Notebook</span>
+                    <span id="badge-notebook" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow" data-anijs="if: DOMContentLoaded, on: document, do: zoomIn animated">Notebook</span>
                   </label>
                 </div>
 
                 <div>
                   <input type="checkbox" id="cars" name="interest" value="cars" hidden="" onchange="addInterests()"/>
                   <label for="cars">
-                    <span id="badge-cars" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow">Carros</span>
+                    <span id="badge-cars" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow" data-anijs="if: DOMContentLoaded, on: document, do: zoomIn animated">Carros</span>
                   </label>
                 </div>
 
                 <div>
                   <input type="checkbox" id="motocicle" name="interest" value="motocicle" hidden="" onchange="addInterests()" />
                   <label for="motocicle">
-                    <span id="badge-motocicle" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow">Motos</span>
+                    <span id="badge-motocicle" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow" data-anijs="if: DOMContentLoaded, on: document, do: zoomIn animated">Motos</span>
                   </label>
                 </div>
 
                 <div>
                   <input type="checkbox" id="scooter" name="interest" value="scooter" hidden="" onchange="addInterests()" />
                   <label for="scooter">
-                    <span id="badge-scooter" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow">Scooter</span>
+                    <span id="badge-scooter" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow" data-anijs="if: DOMContentLoaded, on: document, do: zoomIn animated">Scooter</span>
                   </label>
                 </div>
 
                 <div>
                   <input type="checkbox" id="fashion" name="interest" value="feshion" hidden="" onchange="addInterests()" />
                   <label for="fashion">
-                    <span id="badge-fashion" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow">Moda</span>
+                    <span id="badge-fashion" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow" data-anijs="if: DOMContentLoaded, on: document, do: zoomIn animated">Moda</span>
                   </label>
                 </div>
 
                 <div>
                   <input type="checkbox" id="gym" name="interest" value="gym" hidden="" onchange="addInterests()" />
                   <label for="gym">
-                    <span id="badge-gym" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow">Academia</span>
+                    <span id="badge-gym" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow" data-anijs="if: DOMContentLoaded, on: document, do: zoomIn animated">Academia</span>
                   </label>
                 </div>
               </div>
@@ -117,8 +116,8 @@
         </div>
         
         <div class="card-footer border-0 d-flex justify-content-center justify-content-md-end">
-            <button class="btn btn-default me-3">Cancelar</button>
-            <button class="btn btn-gradient">Cadastrar</button>
+            <button class="btn btn-default me-3" data-anijs="if: DOMContentLoaded, on: document, do: zoomIn animated">Cancelar</button>
+            <button class="btn btn-gradient" data-anijs="if: DOMContentLoaded, on: document, do: zoomIn animated">Cadastrar</button>
         </div>
       </div>
 
@@ -130,6 +129,7 @@
     <!-- JavaScript -->
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/libs/anijs/dist/anijs-min.js"></script>
   </body>
 
 </html>
