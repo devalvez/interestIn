@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Wesley A. Alves" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet" />
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css" />
+    <script src="assets/libs/anijs/dist/anijs-min.js"></script>
+    <title>°Brand | Register</title>
+  </head>
+
+  <body class="bg-blue">
+
+    <div class="container">
+      <div class="card card-staic-size p-4 pt-3 pb-3 shadow full-rounded">
+        <div class="card-header border-0">
+          <img class="logo-size" src="assets/images/drand.png" alt="brand.png" />
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-12 col-md-6 p-4 pe-5 border-end">
+
+              <h1 class="title mb-3">cadastro</h1>
+              
+              <div class="mb-3">
+                <input class="form-control default-input" type="text" placeholder="Nome Completo"  />
+              </div>
+              
+              <div class="mb-3">
+                <input class="form-control default-input" type="text" placeholder="Endereço de e-mail" />
+              </div>
+
+              <div class="mb-3">
+                <input class="form-control default-input" type="text" placeholder="Crie sua senha" />
+              </div>
+
+              <hr class="mt-4" />
+
+              <h2 class="subtitle">Já é cadastrado? <a class="anchor" href="login.html">Faça Login</a></h2>
+              
+            </div>
+            
+            <div class="col-12 col-md-6 mt-4 ps-5">
+              <div class="mb-4">
+                <h1 class="title">SELECIONE SEUS INTERESSES</h1>
+                <h2 class="subtitle">Selecione no mínimo 3 interesses. Você pode adionar ou remover interesses posteriormente</h2>
+              </div>
+              
+              <div class="d-inline-flex flex-wrap">
+                <div>
+                  <input type="checkbox" id="eletronics" name="interest" value="eletronics" hidden="" onchange="addInterests()" />
+                  <label for="eletronics">
+                    <span id="badge-eletronics" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow">Eletrônicos</span>
+                  </label>
+                </div>
+                
+                <div>
+                  <input type="checkbox" id="phone" name="interest" value="phone" hidden="" onchange="addInterests()" />
+                  <label for="phone">
+                    <span id="badge-phone" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow">Celular</span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="notebook" name="interest" value="notebook" hidden="" onchange="addInterests()"/>
+                  <label for="notebook">
+                    <span id="badge-notebook" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow">Notebook</span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="cars" name="interest" value="cars" hidden="" onchange="addInterests()"/>
+                  <label for="cars">
+                    <span id="badge-cars" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow">Carros</span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="motocicle" name="interest" value="motocicle" hidden="" onchange="addInterests()" />
+                  <label for="motocicle">
+                    <span id="badge-motocicle" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow">Motos</span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="scooter" name="interest" value="scooter" hidden="" onchange="addInterests()" />
+                  <label for="scooter">
+                    <span id="badge-scooter" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow">Scooter</span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="fashion" name="interest" value="feshion" hidden="" onchange="addInterests()" />
+                  <label for="fashion">
+                    <span id="badge-fashion" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow">Moda</span>
+                  </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="gym" name="interest" value="gym" hidden="" onchange="addInterests()" />
+                  <label for="gym">
+                    <span id="badge-gym" class="badge rounded-pill p-3 mb-3 me-2 bg-blue shadow">Academia</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-footer border-0 d-flex justify-content-center justify-content-md-end">
+            <button class="btn btn-default me-3">Cancelar</button>
+            <button class="btn btn-gradient">Cadastrar</button>
+        </div>
+      </div>
+
+      <div style="color: white; text-align: right">
+        <p>All right reserved by <strong class="text-pink">ºBrand</strong> &copy; <script>document.write(new Date().getFullYear())</script> -- Designed by <a href="https://github.com/devalvez" target="_blank" class="anchor">Wesley A. Alves</a></p>
+      </div>
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+
+</html>

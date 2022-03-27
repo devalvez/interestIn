@@ -1,0 +1,85 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1.title {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #161616;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+h2.subtitle {
+  color: #606060;
+  font-size: 18px;
+}
+
+.logo-size {
+  width: 120px;
+}
+.card-staic-size {
+  margin: 30px 0px;
+  min-height: 450px;
+}
+
+.full-rounded {
+  border-radius: 30px;
+}
+
+.anchor {
+  color: #EC255A;
+}
+.anchor:hover {
+  color: #292C6D;
+}
+
+.btn-gradient {
+  background-image: linear-gradient(to right, #EC255A 0%, #292C6D 100%);
+  border-radius: 50px;
+  padding: 10px 35px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+  color: #FFFFFF;
+}
+.btn-gradient:hover {
+  background-image: linear-gradient(to left, #EC255A 0%, #292C6D 100%);
+  color: #FFFFFF;
+}
+.btn-pink {
+  background-color: #EC255A;
+  border-radius: 50px;
+  padding: 10px 35px;
+  color: #FFFFFF;
+}
+
+.btn-default {
+  background-color: #D9D9E9;
+  border-radius: 50px;
+  padding: 10px 35px;
+  color: #606060;
+}
+.default-input {
+  background-color: #D9D9E9;
+}
+.divider {
+  border-right: 1px solid #999;
+  box-sizing: border-box;
+}
+.bg-pink {
+  background-color: #EC255A;
+}
+.bg-blue {
+  background-color: #161853;
+}
+
+.text-pink {
+  color: #EC255A;
+}
+
+.copyright {
+  color: #FFFFFF;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+}
