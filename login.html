@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link href="assets/fonts/typicons/src/font/typicons.css" rel="stylesheet"/>
     <!-- StyleSheet -->
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css" />
@@ -20,7 +21,7 @@
   <body class="bg-blue">
 
     <div class="container">
-      <div class="row vh-50 my-2">
+      <div class="row vh-50 my-5">
         <div class="col-12 d-flex justify-content-center align-bottom my-4">
           
         <div class="card p-4 shadow full-rounded">
@@ -28,28 +29,29 @@
             <h1 class="title zoomIn animated">Login</h1>
           </div>
           <div class="card-body my-4">
-            <div class="mb-4">
-              <input class="form-control default-input zoomIn animated" type="email" name="email" id="email" placeholder="Endereço de e-mail" />
+            <div class="input-icon mb-4 zoomIn animated">
+              <span class="typcn typcn-mail x28"></span>
+              <input class="form-control default-input" type="email" name="email" id="email" placeholder="Endereço de e-mail" />
             </div>
             
-            <div class="mb-4">
-              <input class="form-control default-input zoomIn animated" type="password" name="password" id="password" placeholder="Senha de acesso" />
+            <div class="input-icon mb-4 zoomIn animated">
+              <span class="typcn typcn-lock-closed-outline x28"></span>
+              <input class="form-control default-input" type="password" name="password" id="password" placeholder="Senha de acesso" />
             </div>
 
-            <div class="mb-3 mt-4">
-              <h2 class="subtitle zoomIn animated">Esqueceu a senha? <a class="anchor" href="reset-password.html">Recuperar</a></h2>
-              <h2 class="subtitle zoomIn animated">Não possui cadastro? <a class="anchor" href="index.html">Cadastre-se</a></h2>
+            <div class="input-icon mb-3 mt-4">
+              <button class="btn btn-gradient w-100 zoomIn animated">Cadastrar</button>
             </div>
           </div>
-          <div class="card-footer d-flex justify-content-center border-0">
-            <button class="btn btn-default me-3 zoomIn animated">Cancelar</button>
-            <button class="btn btn-gradient zoomIn animated">Cadastrar</button>
+          <div class="card-footer border-0">
+            <h2 class="subtitle zoomIn animated">Esqueceu a senha? <a class="anchor" href="reset-password.html">Recuperar</a></h2>
+            <h2 class="subtitle zoomIn animated">Não possui cadastro? <a class="anchor" href="index.html">Cadastre-se</a></h2>
           </div>
         </div>
         </div>
       </div>
 
-      <div class="mt-5" style="color: white; text-align: right;">
+      <div class="mt-5 copyright">
         <p class="fadeInLeft">All right reserved by <strong class="text-pink">ºBrand</strong> &copy; <script>document.write(new Date().getFullYear())</script> -- Designed by <a href="https://github.com/devalvez" target="_blank" class="anchor">Wesley A. Alves</a></p>
       </div>
       
